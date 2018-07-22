@@ -1,0 +1,29 @@
+
+/* Big tablet to small computer (smaller width than pixel row): from 1024 - 1200px */ 
+@media only screen and (max-width: 1200px)) {
+    
+}
+
+
+
+
+/* Small tablet to big tablet: from 768 - 1023px */ 
+@media only screen and (max-width: 1023px)) {
+    
+}
+
+
+
+
+/* Small phones to small tablets: from 481 - 767px */ 
+@media only screen and (max-width: 767px)) {
+    
+}
+
+
+
+
+/* Small phones: from 0 - 480px */ 
+@media only screen and (max-width: 480px)) {
+    
+}

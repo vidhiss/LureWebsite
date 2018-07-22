@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Quicksand', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* --------------------------*/
+/* REUSEABLE COMPONENTS */
+/* --------------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* --------------------------*/
+/* TEXT */
+/* --------------------------*/
+
+h2 {
+    color: #fff;
+    margin-bottom: 0; 
+    font-size: 600%;
+    letter-spacing: 25px;
+    text-shadow: 2px 2px 6px #8b8b8b;
+
+}
+
+h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 100%;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    margin-top: 0;
+    text-shadow: 2px 2px 6px #8b8b8b;
+}
+
+h4 {
+    color: #8b8b8b;
+    font-weight: bold;
+    font-size: 120%;
+    word-spacing: 4px;
+}
+
+#sub-title {
+    color: #4a4646;
+    font-weight: 300;
+    font-style: italic;
+}
+
+p{
+    font-size: 80%;
+    color: #fff;
+}
+
+/* --------------------------*/
+/* HEADER */
+/* --------------------------*/
+
+header {
+    background-image: url(img/hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.logo {
+    height: 130px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 35%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    margin-top: 60px;
+}
+/* --------------------------*/
+/* LINKS */
+/* --------------------------*/
+
+/* --------------------------*/
+/* BUTTONS */
+/* --------------------------*/
+
+.btn-full:link,
+.btn-full:visited {
+    border: 1px solid #4a4646;
+    color: #fff; 
+}
+
+.btn:link,
+.btn:visited {
+    float: right;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 80%;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: #4a4646;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #e66622;
+    background-color: #e66622; 
+}
+
+/* --------------------------*/
+/* LURE LOGO*/
+/* --------------------------*/
+
+.section-lure-logo {
+  background-color: #F0EEED;
+}
+
+.lure-logo-anim {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.anim {
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.awards-box img{
+    margin-top: 40px;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15%;
+}
+
+/* --------------------------*/
+/* VIDEO */
+/* --------------------------*/
+
+.section-video {
+    background-color: #F0EEED;
+    padding-bottom: 60px;
+}
+
+.video {
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* --------------------------*/
+/* FOOTER */
+/* --------------------------*/
+
+.footer-box li {
+    list-style: none;
+    display: inline;
+    float: left;
+    margin-right: 10%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #e66622;
+}
+
+.social-links {
+    margin-left: 42%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    transition: color 0.2s;
+    font-size: 120%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #365998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #d94b00;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+
+
+
+/* DELTED 
+
+/* 
+.main-nav {
+    list-style: none;
+    margin-top: 60px;
+  
+}
+
+.main-nav li{
+    display: inline-block;
+    float: left;
+    margin-left: 60px;
+    letter-spacing: 1px;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #4a4646;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    word-spacing: 10px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e66622;
+}
+ */ 
