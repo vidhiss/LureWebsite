@@ -12,7 +12,10 @@ html {
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
-
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
 .clearfix {zoom: 1}
 .clearfix:after {
     content: ".";
@@ -37,7 +40,7 @@ html {
 
 h2 {
     color: #fff;
-    margin-bottom: 0; 
+    margin-bottom: 0;
     font-size: 600%;
     letter-spacing: 25px;
     text-shadow: 2px 2px 6px #8b8b8b;
@@ -114,7 +117,7 @@ header {
 .btn-full:link,
 .btn-full:visited {
     border: 1px solid #4a4646;
-    color: #fff; 
+    color: #fff;
 }
 
 .btn:link,
@@ -134,7 +137,7 @@ header {
 .btn-full:hover,
 .btn-full:active {
     border: 1px solid #e66622;
-    background-color: #e66622; 
+    background-color: #e66622;
 }
 
 /* --------------------------*/
@@ -176,6 +179,10 @@ header {
 .video {
     margin-top: 60px;
     text-align: center;
+}
+
+iframe {
+  width: 100%;
 }
 
 /* --------------------------*/
@@ -235,13 +242,13 @@ footer {
 
 
 
-/* DELTED 
+/* DELTED
 
-/* 
+/*
 .main-nav {
     list-style: none;
     margin-top: 60px;
-  
+
 }
 
 .main-nav li{
@@ -249,7 +256,7 @@ footer {
     float: left;
     margin-left: 60px;
     letter-spacing: 1px;
-    
+
 }
 
 .main-nav li a:link,
@@ -269,4 +276,4 @@ footer {
 .main-nav li a:active {
     border-bottom: 2px solid #e66622;
 }
- */ 
+ */
